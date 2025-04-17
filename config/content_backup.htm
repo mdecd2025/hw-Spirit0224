@@ -131,7 +131,16 @@ for i in all_stud:
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/HtQtDEhnbhQ" width="560"></iframe></span></p>
 <p><strong data-end="1633" data-start="1627"></strong></p>
 <h2>w6</h2>
-<h2>w7</h2>
+<p><span>如何啟動webots：在本學期可攜程式的start.bat中，已經有在可攜上啟動的程式，只需確認</span><a href="http://229.cycu.org/Webots_2025a_web.7z">Webots_2025a_web.7z</a><span> 是否壓縮放入可攜套件(</span><span><a href="http://229.cycu.org/portable_wcm2025.7z">portable_wcm2025.7z</a></span><span>)的 data 目錄中，如是使用舊版的可攜套件，也可在.bat啟動編碼中自行設定加入：</span></p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">REM for Webots
+set PYTHON_PATH=%Disk%:\Python313
+  
+REM for webots
+set  path_webots=%Disk%:\Webots_2025a\msys64\mingw64\bin;%Disk%:\Webots_2025a\msys64\usr\bin
+  
+path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;%path_flutter%;%path_node%;%path_tcc%;%path_postgresql%;%path_range%;%path_lua%;%path_core%;%path_putty%;%path_vscode%;%RUST_PATH%;%path_erlang%;%path_nodejs%;%path_haskell%;%path_scite%;%path_xsltproc%;%path_gnuplot%;%path_openssl%;%path_poppler%;%path_webots%;%path_blender%;%path%;
+</pre>
+<p></p><h2>w7</h2>
 <h2>w8</h2>
 <p>根據<span> </span><a href="https://cyberbotics.com/doc/reference/solidreference">SolidReference</a><span> </span>節點的用法說明, SolidReference 可以用在 Joint 節點的 endPoint 欄位中，用來指向一個現有的 Solid 或靜態環境 &lt;static environment&gt;。通過這種方式，可以閉合機械迴圈。</p>
 <p>當指向一個 Solid 時，唯一的限制是 Solid 和 Joint 必須是某個共同上層 Solid 的後代。</p>
