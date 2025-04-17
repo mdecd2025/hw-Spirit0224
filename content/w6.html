@@ -143,7 +143,16 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7<br /><h1>w6</h1>
-<br />w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7</div>
+<p><span>如何啟動webots：在本學期可攜程式的start.bat中，已經有在可攜上啟動的程式，只需確認</span><a href="http://229.cycu.org/Webots_2025a_web.7z">Webots_2025a_web.7z</a><span> 是否壓縮放入可攜套件(</span><span><a href="http://229.cycu.org/portable_wcm2025.7z">portable_wcm2025.7z</a></span><span>)的 data 目錄中，如是使用舊版的可攜套件，也可在.bat啟動編碼中自行設定加入：</span></p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">REM for Webots
+set PYTHON_PATH=%Disk%:\Python313
+  
+REM for webots
+set  path_webots=%Disk%:\Webots_2025a\msys64\mingw64\bin;%Disk%:\Webots_2025a\msys64\usr\bin
+  
+path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;%path_flutter%;%path_node%;%path_tcc%;%path_postgresql%;%path_range%;%path_lua%;%path_core%;%path_putty%;%path_vscode%;%RUST_PATH%;%path_erlang%;%path_nodejs%;%path_haskell%;%path_scite%;%path_xsltproc%;%path_gnuplot%;%path_openssl%;%path_poppler%;%path_webots%;%path_blender%;%path%;
+</pre>
+<p></p><br />w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7</div>
         
     <!-- footer -->
       <div class="container">
