@@ -14,7 +14,8 @@
 <p style="padding-left: 30px;">Final Report (30%) - 利用網頁內容進行簡報並提交 pdf 格式書面報告, 完成後填回自評表單</p>
 <p></p>
 <h1>Week</h1>
-<p>記錄每周上課內容</p><h2>w1</h2>
+<p>記錄每周上課內容</p>
+<h2>w1</h2>
 <p>Python 更新</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ys-K4rsSOB8?si=tmqypcbmqfn0qLGp" title="YouTube video player" width="560"></iframe></p>
 <h2>w3</h2>
@@ -140,7 +141,8 @@ set  path_webots=%Disk%:\Webots_2025a\msys64\mingw64\bin;%Disk%:\Webots_2025a\ms
   
 path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;%path_flutter%;%path_node%;%path_tcc%;%path_postgresql%;%path_range%;%path_lua%;%path_core%;%path_putty%;%path_vscode%;%RUST_PATH%;%path_erlang%;%path_nodejs%;%path_haskell%;%path_scite%;%path_xsltproc%;%path_gnuplot%;%path_openssl%;%path_poppler%;%path_webots%;%path_blender%;%path%;
 </pre>
-<p></p><h2>w7</h2>
+<p></p>
+<h2>w7</h2>
 <p>投石機</p>
 <p><img alt="" height="391" src="/images/螢幕擷取畫面 2025-04-17 221923.png" width="397"/></p>
 <p>slvs:<a href="/downloads/w7slvs.7z">/downloads/w7slvs.7z</a></p>
@@ -149,7 +151,8 @@ path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/rPlhClDPnU0" width="560"></iframe></p>
 <p>組裝影片:</p>
 <p></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/zt_Bu5a_kEM" width="560"></iframe></p><h2>w8</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/zt_Bu5a_kEM" width="560"></iframe></p>
+<h2>w8</h2>
 <p>根據<span> </span><a href="https://cyberbotics.com/doc/reference/solidreference">SolidReference</a><span> </span>節點的用法說明, SolidReference 可以用在 Joint 節點的 endPoint 欄位中，用來指向一個現有的 Solid 或靜態環境 &lt;static environment&gt;。通過這種方式，可以閉合機械迴圈。</p>
 <p>當指向一個 Solid 時，唯一的限制是 Solid 和 Joint 必須是某個共同上層 Solid 的後代。</p>
 <p>意思即, SolidReference 是一個引用類型，允許在 Joint 節點的 endPoint 欄位中指定某個目標。它可以指向兩種類型的對象：</p>
@@ -158,7 +161,8 @@ path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;
 <li>靜態環境 &lt;static environment&gt;：這通常指的是不動的參考框架（例如地面或固定基座）。</li>
 </ol>
 <p>根據第一個情況，若將 fourbar linkage 的 joint4 設置在 base link 的最右端，然後將 joint4 的 endPoint 欄位，設為 SolidReference 指向 link3，即可符合 Soild (link3) 與 Joint (joint4) 都是某個共同上層 Solid (base) 的後代。</p>
-<p>至於第二個情況，則可以將 fourbar linkage 的 joint4 設置在 link3 的末端，然後將 joint4 的 endPoint 欄位指向 &lt;static environment&gt;，讓 link3 的末端固定在 ground (其作用與固定在 base 節點相同)。</p><h2>w9</h2>
+<p>至於第二個情況，則可以將 fourbar linkage 的 joint4 設置在 link3 的末端，然後將 joint4 的 endPoint 欄位指向 &lt;static environment&gt;，讓 link3 的末端固定在 ground (其作用與固定在 base 節點相同)。</p>
+<h2>w9</h2>
 <p>1.期中自評</p>
 <p><a href="https://mdecd2025.github.io/hw-Spirit0224/content/Midterm.html">此連結</a>為Midterm的自評網頁</p>
 <p>評分依據:</p>
@@ -169,11 +173,16 @@ path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;
 <p>要求利用Webots內建零件做出四連桿</p>
 <p>要有條件約束及子母零件配置最後輸入程式碼達成驅動</p>
 <p>3.計分板</p>
-<p>webots配合計數器(七段顯示器)、webots版本問題，最後投籃機重點交代</p><h1>task</h1>
-<p>記錄每周額內容</p><h2>task1</h2>
+<p>webots配合計數器(七段顯示器)、webots版本問題，最後投籃機重點交代</p>
+<h2>w10</h2>
+<h2>w11</h2>
+<h1>task</h1>
+<p>記錄每周額內容</p>
+<h2>task1</h2>
 <p>Python 更新</p>
 <p>Python版本過舊要進行升級</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ys-K4rsSOB8?si=tmqypcbmqfn0qLGp" title="YouTube video player" width="560"></iframe></p><h2>task2</h2>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ys-K4rsSOB8?si=tmqypcbmqfn0qLGp" title="YouTube video player" width="560"></iframe></p>
+<h2>task2</h2>
 <p>ssh</p>
 <p>1.利用puttygen.exe建立金鑰，複製ssh-ra到Github，之後到按Load存入Y槽</p>
 <p><img alt="" height="285" src="/images/螢幕擷取畫面 2025-03-21 135959.png" width="367"/></p>
@@ -192,7 +201,8 @@ path=%Disk%:;%path_python%;%path_git%;%path_copsim%;%path_msys2%;%path_miketex%;
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/fquSBAHiX0g" width="560"></iframe></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ImxVm3vgpiA" width="560"></iframe></p>
 <p>組裝影片:</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/MR1uKyb-428" width="560"></iframe></p><h2>task4</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/MR1uKyb-428" width="560"></iframe></p>
+<h2>task4</h2>
 <p>列出本班為分組人員</p>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false"># 甲班學員資料處理
 url = "https://mde.tw/list/2a.txt"
@@ -209,7 +219,8 @@ for i in all_stud:
     stud_github = stud[1]
     if stud_github not in a_all_members:
         print(stud_num)</pre>
-<p><a href="https://mdecd2025.github.io/2a-ag4/content/Brython.html?src=https://gist.githubusercontent.com/zhe41223118/fcdf65c3206155c5cd56140e47c6c87d/raw/8a5262e66228212fbc4f862ceaf67c798c9fb54c/2a-1">2a未加入團隊學員</a></p><h2>task5</h2>
+<p><a href="https://mdecd2025.github.io/2a-ag4/content/Brython.html?src=https://gist.githubusercontent.com/zhe41223118/fcdf65c3206155c5cd56140e47c6c87d/raw/8a5262e66228212fbc4f862ceaf67c798c9fb54c/2a-1">2a未加入團隊學員</a></p>
+<h2>task5</h2>
 <p>2.請整理<span> </span><a href="https://cyberbotics.com/doc/guide/introduction-to-webots">https://cyberbotics.com/doc/guide/introduction-to-webots</a><span> </span>中重要的英文單字與用法, 並且針對其中所使用的英文文法逐句說明.</p>
 <ol data-end="1116" data-start="38">
 <li data-end="175" data-start="38">
@@ -319,7 +330,8 @@ for i in all_stud:
 <p>期中自評影片:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ZD4Hbb_jlQU" width="560"></iframe></p>
 <p></p>
-<p style="padding-left: 30px;"></p><h1>Exam</h1>
+<p style="padding-left: 30px;"></p>
+<h1>Exam</h1>
 <p>Exam1 (10%): 建立 Webots 基本物件模擬場景</p>
 <p style="padding-left: 30px;">各學員利用 Webots R2025a 套件中的 Shape 物件, 隨堂建立指定的機電系統模擬場景, 並利用 Python 程式進行互動控制.</p>
 <p>Exam2 (10%): 利用 CAD 零組件建立模擬場景 </p>
